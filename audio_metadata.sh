@@ -14,7 +14,7 @@ output_csv="audio_metadata.csv"
 # - jq: Install using your system's package manager (e.g., sudo apt-get install jq on Debian/Ubuntu).
 
 # Specify the folder containing your audio files.
-audio_folder="/Volumes/G-RAID/Abisko_2023/long-term/Ants_09-21.07"
+audio_folder="/path/to/audio/folder"
 
 # Initialize CSV file with headers
 echo "File Name,Date,Creation Time,Duration,Bitrate" > "$output_csv"
